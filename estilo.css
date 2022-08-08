@@ -1,0 +1,227 @@
+/* --- CSS RESET --- */
+* { 
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+}
+
+/* --- BODY --- */
+body {
+    background-color: #A67360;
+}
+
+/* hhh ELEMENTOS DO HEADER hhh */
+header {
+    width: 1080px;
+    height: 185px;
+    border: 1px solid #FFF;
+    background-color: #8C5346;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#logotipo {
+    float: left;
+    width: 160px;
+    height: 160px;
+    border: 1px solid #FFF; 
+    background-size: 160px 160px;
+    background-position: center;
+    background-image: url(img/cat_image.jpg);
+    background-color: rgba(166, 166, 166);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#dados {
+    float: right;
+    width: 420px;
+    height: 15px;
+    border-bottom: 2px solid #FFF;
+    padding: 10px 10px 10px 10px;
+    background-color: #BF9A84;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+/* hhh ELEMENTOS DO HEADER hhh */
+
+/* nnn ELEMENTOS DO NAV nnn*/
+
+nav {
+    width: 1080px;
+    height: 110px;
+    /* border: 2px solid #FFF; */
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#bloco1 {
+    float: right;
+    width: 520px;
+    height: 125px;
+    border: 1px solid #FFF;
+    background-image: url(img/cat.png);
+    background-size: 1000px 300px;
+    background-position-x: 95%;
+    background-position-y: 50%;
+    background-color: rgba(233, 233, 233); 
+    margin-top: 10px;
+    margin-right: 18px;
+    padding: 0 0 10px 0;
+}
+
+#bloco2 {
+    float: right;
+    width: 520px;
+    height: 125px;
+    border: 1px solid #FFF;
+    background-image: url(img/cat.png);
+    background-size: 1000px 300px;
+    background-position-x: -18%;
+    background-position-y: 50%;
+    background-color: rgba(233, 233, 233); 
+    margin-top: 10px;
+    margin-right: 18px;
+    padding: 0 0 10px 0;
+}
+
+/* nnn ELEMENTOS DO NAV nnn*/
+
+/* mmm ELEMENTOS DO MAIN mmm*/
+main {
+    width: 1080px;
+    height: 500px;
+    /* border: 2px solid #FFF; */
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.moldinfo {
+    float: left;
+    width: 500px;
+    height: 470px;
+    border: 1px solid #FFF;
+    background-color: rgba(191,153,132, 0.8);
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+
+.moldura {
+    float: left;
+    width: 250px;
+    height: 470px;
+    border: 1px solid #FFF;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#quadro1 {
+    float: right;
+    width: 230px;
+    height: 220px;
+    border: 1px solid #FFF;
+    background-image: url(img/pop_cat.gif);
+    background-size: 550px 500px;
+    background-position-x: 65%;
+    background-position-y: -165%;
+    background-color: rgba(166, 166, 166);
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#quadro2 {
+    float: right;
+    width: 230px;
+    height: 220px;
+    border: 1px solid #FFF;
+    background-image: url(img/pop_cat.gif);
+    background-repeat: repeat;
+    background-size: 550px 500px;
+    background-position-x: 65%;
+    background-position-y: -85%;
+    background-color: rgba(166, 166, 166);
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.texto {
+    float: left;
+    width: 480px;
+    height: 215px;
+    border: 1px solid #FFF;
+    /* background-color: rgba(166, 166, 166, 0.5); */
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#propaganda {
+    float: right;
+    width: 230px;
+    height: 450px;
+    border: 1px solid #FFF;
+    background-image: url(img/whoare.gif);
+    background-size: 230px 450px;
+    background-position-x: 60%;
+    /* background-color: rgba(166, 166, 166); */
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+section h2 {
+    color: #CFFFF1;
+    text-align: justify;
+    padding: 5px 0 0 200px;  
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19pt;
+    text-shadow: -2px 2px 1px rgba(24, 20, 20, 0.6);
+}
+
+section p {
+    color: #DBF6FF;
+    text-align: center;
+    padding: 5px 0 0 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 13pt;
+    text-indent: 30px;
+    line-height: 40px;
+}
+
+.titulo1 {
+    color: #FF4F44;
+    text-align: justify;
+    padding: 5px 0 0 170px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19pt;
+    text-indent: 30px;
+    line-height: 40px;
+}
+
+.texto1 {
+    color: #FFD9CF;
+    text-align: center;
+    padding: 5px 0 0 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 13pt;
+    text-indent: 30px;
+    line-height: 40px;
+}
+
+
+
+/* mmm ELEMENTOS DO MAIN mmm*/
+
+footer {
+    width: 1080px;
+    height: 115px;
+    border: 1px solid #FFF;
+    background-color: #8C5346;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+/* --- BODY --- */
+
+
